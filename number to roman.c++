@@ -17,7 +17,6 @@ public:
                 num -= value;
             }
         }
-
         return res;        
     }
 };
