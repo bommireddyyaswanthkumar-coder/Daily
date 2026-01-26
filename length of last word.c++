@@ -9,6 +9,7 @@ public:
                     counting=true;
                     length=1;
                 }
+                    
                 else{
                     length++;
                 }
