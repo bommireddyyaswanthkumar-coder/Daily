@@ -1,11 +1,11 @@
 class Solution {
 public:
-int longestConsecutive(vector& nums) {
-int n = nums.size();
-if(n == 0){
-return 0;
-}
-sort(nums.begin(), nums.end());
+  int longestConsecutive(vector& nums) {
+  int n = nums.size();
+  if(n == 0){
+  return 0;
+  }
+  sort(nums.begin(), nums.end());
 int currentConsecutiveSequence = 1;
 int longestConsecutiveSequence = 0;
 for(int i=1; i<n; i++){
