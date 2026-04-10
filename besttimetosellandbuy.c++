@@ -10,6 +10,5 @@ public:
             profit=max(profit,prices[i]-buyprice);
         }
         return profit;
-        
     }
 };
