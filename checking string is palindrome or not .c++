@@ -14,6 +14,7 @@ public:
             if(inew[left]!=inew[right]){
                 return false;
             }
+            
             left++;
             right--;
             
