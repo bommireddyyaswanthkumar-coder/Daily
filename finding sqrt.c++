@@ -7,6 +7,7 @@ public:
         int left=1,right=x/2;
         while(left<=right){
         int mid=left+(right-left)/2;
+            
         long long square=(long long) mid*mid;
         if(square==x){
             return mid;
